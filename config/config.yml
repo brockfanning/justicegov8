@@ -1,0 +1,8 @@
+vagrant_hostname: local.justice8.doj.gov
+vagrant_machine_name: justicegov8
+
+drupal_build_composer_project: false
+drupal_build_composer: true
+drupal_composer_path: false
+drupal_composer_install_dir: "/var/www/drupalvm"
+drupal_core_path: "{{ drupal_composer_install_dir }}/web"
