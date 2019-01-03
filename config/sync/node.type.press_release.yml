@@ -1,0 +1,17 @@
+uuid: 7fe5c367-9e73-490f-9a47-48b68a21bd94
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Press release'
+type: press_release
+description: 'This content type is reserved for press releases from the Department.'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false
