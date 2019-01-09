@@ -1,5 +1,6 @@
 vagrant_hostname: local.justice8.doj.gov
 vagrant_machine_name: justicegov8
+vagrant_ip: 192.168.33.17
 
 drupal_build_composer_project: false
 drupal_build_composer: true
@@ -41,14 +42,14 @@ installed_extras:
   - mailhog
   # - memcached
   # - newrelic
-  # - nodejs
+  - nodejs
   - pimpmylog
   # - redis
   # - ruby
   # - selenium
-  # - solr
+  - solr
   # - tideways
   # - upload-progress
   - varnish
-  # - xdebug
+  - xdebug
   # - xhprof # use `tideways` if you're installing PHP 7+
